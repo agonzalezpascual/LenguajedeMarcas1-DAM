@@ -1,0 +1,64 @@
+body{
+    background-color:#99CCFF;
+    font-family:arial;
+    font-size: 15px;
+}
+div{
+	float:left;
+}
+select{
+	width:100px;
+}
+#div1{
+    background-color:#006600;
+    width:865px;
+    height:230px;
+    border-radius:15px;
+    padding:1px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#divelec{
+    width:150px;
+    background-color:#3399CC;
+    color:#000000;
+    border:2px ;
+    border-color:#FADF98;
+	border-style:solid;
+    padding:7px;
+    margin:5px;
+    border-radius:10px;
+    size:15px;
+}
+#divdesp{
+	width:125px;
+	size:15;
+	background-color:#3399CC;
+    color:#000000;
+	border:2px;
+    border-color:#FADF98;
+	border-style:solid;
+	padding:7px;
+    margin:5px;
+    border-radius:10px;
+}
+#binfo{
+	color:#990000;
+	width:75px;
+	height:73px;
+	border:4px;
+	border-color:#003399;
+	border-style:solid;
+	padding-left:4px;
+	padding-right:4px;
+	border-radius:30px;
+	margin-left:45%;
+	background-image:url(safaep1t3.png);
+}
+h1{
+    color:#FFFFFF;
+    text-align:center;
+}
+input{
+	margin:2px;
+}
