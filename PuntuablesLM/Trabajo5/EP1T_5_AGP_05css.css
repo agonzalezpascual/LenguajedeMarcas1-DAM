@@ -1,0 +1,30 @@
+body{
+    background-color: #7eb77e;
+}
+img{
+    float:left;
+    width: 125px;
+    height: 125px;
+    border-radius: 12px;
+    margin:10px;
+    box-shadow: 3px 3px 5px;
+    background: rgba(50, 50, 50, .5);
+}
+div{
+    margin-left:auto;
+    margin-right:auto;
+}
+#div1{
+    background-color: #FFCC33;
+    width: 506px;
+    height: 140px;
+    border-radius: 15px;
+    padding:20px;
+}
+#enc1{
+    color: #348A00;
+    align:justify;
+}
+#div2{
+
+}
