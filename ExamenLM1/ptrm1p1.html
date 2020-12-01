@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="ptrim1p1.css"/>
+    <title>Prueba Práctica HTML5</title>
+</head>
+<body>
+
+<div id="div1">
+
+    <img id="imgboc" src="loquecomo.jpeg" alt="La imagen no ha cargado" />
+    <h1 id="enc1">¡Bienvenidos <br/>a<br/> ECOBOCATA!</h1>
+
+</div>
+<div id="divform">
+<form action="mailto:atolon@fundacionsafa.es" method="post" enctype="text/plain">
+    <h1 id="enc2">Dinos cómo quieres tu bocadillo</h1>
+	<div id="divelec">
+	<b>Pan:*</b><br/>
+	<select name="pan" id="pan" required>
+	<option value="" disabled selected hidden >---</option>
+	<option value="cen">Centeno</option>
+	<option value="soj">Soja</option>
+	<option value="int">Integral</option>
+	</select><br/>
+	</div>
+	<div id="divelec">
+	<b>Carne:*</b><br/>
+	<input type="radio" id="pol" name="carne" value="pollo" required>Pollo</input><br/>
+	<input type="radio" id="pol" name="carne" value="avestruz" >Avestruz</input><br/>
+	<input type="radio" id="cang" name="carne" value="canguro" >Canguro</input><br/>
+	<input type="radio" id="salc" name="carne" value="salchicha" >Salchicha</input><br/>
+	</div>
+
+	<div id="divelec">
+	<b>Ensalada:*</b><br/>
+	<input type="checkbox" id="lec" name="ensalada" value="lechuga" >Lechuga</input><br/>
+	<input type="checkbox" id="pep" name="ensalada" value="pepinillo" >Pepinillo</input><br/>
+	<input type="checkbox" id="tom" name="ensalada" value="tomate" >Tomate</input><br/>
+	<input type="checkbox" id="zan" name="ensalada" value="zanahoria" >Zanahoria</input><br/>
+    </div>
+    <div id="divelec">
+	<b>Aderezo:*</b><br/>
+	<input type="checkbox" id="may" name="aderezo" value="lechuga" >Mayonesa</input><br/>
+	<input type="checkbox" id="mos" name="aderezo" value="pepinillo" >Mostaza</input><br/>
+	<input type="checkbox" id="ali" name="aderezo" value="tomate" >Ali Oli</input><br/>
+	<input type="checkbox" id="gua" name="aderezo" value="zanahoria" >Guacamole</input><br/>
+    </div>
+    </div>
+<div id="div4">
+    <h1 id="enc3">Confírmanos el envío</h1>
+        <div id="div3">
+            <label id="Nomcampo">Nombre y Apellido:*</label>
+        <input type="text" id="camposinput" name="nombre" placeholder="Nombre y primer apellido" required>
+        </div>
+        <div id="div3">
+            <label id="Nomcampo">Dirección:*</label>
+        <input type="text" id="camposinput" name="direc" placeholder="Dirección" required>
+        </div>
+        <div id="div3">
+            <label id="Nomcampo">Código Postal:*</label>
+        <input type="text" id="camposinput" name="codpos" maxlength="5" minlength="5" pattern="[0-9]{5,5}$" placeholder="Código Postal" required>
+        </div>
+        <div id="div3">
+            <label id="Nomcampo">Localidad:*</label>
+        <input type="text" id="camposinput" name="loc" placeholder="Localidad" required>
+        </div>
+        <div id="div3">
+        <label id="Nomcampo">Dirección de correo:</label><span id="asterisco">*</span>
+        <input type="email" id="camposinput" name="correo"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="identificador@dominio.com" required>
+        </div>
+        <div id="div3">
+        <label id="Nomcampo">Tipo Tarjeta:*</label>
+        <select id="camposinputse" required>
+            <option value="" disabled selected hidden>---</option>
+            <option value="0">VISA</option>
+            <option value="1">Mastercard</option>
+            <option value="2">American Express</option>
+        </select><br/>
+        </div>
+        <div id="div3">
+            <label id="Nomcampo">NºTarjeta:*</label>
+        <input type="text" id="camposinput" name="tarj" placeholder="Número de Tarjeta" required>
+        </div>
+        <div id="div3">
+            <label id="Nomcampo">Importe:*</label>
+        <input type="text" id="camposinput" name="imp" placeholder="Importe" required>
+        </div>
+        </div>
+</div>
+<button id="binfo" type="submit" value="Enviar Datos"><b>¡Pídelo!</b></button>
+</form>
+</body>
+</html>
