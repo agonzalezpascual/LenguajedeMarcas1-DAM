@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejemplo1.xsl"?>
+<HTML>
+  <HEAD>
+    <TITLE>Ejemplo9.xsl</TITLE>
+  </HEAD>
+  <BODY>
+    <CENTER>
+      <H1>Listado de Alumnos</H1>
+    </CENTER>
+    <DIV STYLE="TOP:10;LEFT:100;POSITION:RELATIVE">
+      <UL>
+        <LI>Bautista,
+       		  Belén
+	      	  (cfsu202-01)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                5.0,
+                9.0-
+                Nota final:7-->
+      <UL>
+        <LI>Bosch,
+       		  Sara
+	      	  (cfsu202-02)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                6.5,
+                7.0-
+                Nota final:6.75-->
+      <UL>
+        <LI>Fernández,
+       		  Rafael
+	      	  (cfsu202-03)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                7.0,
+                7.5-
+                Nota final:7.25-->
+      <UL>
+        <LI>Fuentes-Robles,
+       		  Antonio
+	      	  (cfsu202-04)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                6.0,
+                10.0-
+                Nota final:8-->
+      <UL>
+        <LI>Galán,
+       		  Manuel
+	      	  (cfsu202-05)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                6.0,
+                8.5-
+                Nota final:7.25-->
+      <UL>
+        <LI>García,
+       		  Juan Antonio
+	      	  (cfsu202-06)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                5.0,
+                5.5-
+                Nota final:5.25-->
+      <UL>
+        <LI>González,
+       		  Fernando
+	      	  (cfsu202-07)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                7.0,
+                7.0-
+                Nota final:7.0-->
+      <UL>
+        <LI>López,
+       		  José Luis
+	      	  (cfsu202-08)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                8.0,
+                9.0-
+                Nota final:8.5-->
+      <UL>
+        <LI>Macarro,
+       		  Juan Manuel
+	      	  (cfsu202-09)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                6.5,
+                8.0-
+                Nota final:7.25-->
+      <UL>
+        <LI>Marchena,
+       		  José Manuel
+	      	  (cfsu202-10)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                9.0,
+                9.0-
+                Nota final:9.0-->
+      <UL>
+        <LI>Martín,
+       		  Ricardo
+	      	  (cfsu202-12)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                6.5,
+                6.5-
+                Nota final:6.5-->
+      <UL>
+        <LI>Martínez,
+       		  Alvaro
+	      	  (cfsu202-13)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                8.0,
+                9.0-
+                Nota final:8.5-->
+      <UL>
+        <LI>Morán,
+       		  Francisco
+	      	  (cfsu202-14)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                7.0,
+                6.0-
+                Nota final:6.5-->
+      <UL>
+        <LI>Márquez,
+       		  María
+	      	  (cfsu202-11)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                8.0,
+                8.0-
+                Nota final:8.0-->
+      <UL>
+        <LI>Naranjo,
+       		  Sergio
+	      	  (cfsu202-15)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                8.0,
+                7.0-
+                Nota final:7.5-->
+      <UL>
+        <LI>Nuñez,
+       		  Claudio
+	      	  (cfsu202-16)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                9.0,
+                9.0-
+                Nota final:9.0-->
+      <UL>
+        <LI>Payán,
+       		  Francisco Javier
+	      	  (cfsu202-17)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                5.0,
+                6.0-
+                Nota final:5.5-->
+      <UL>
+        <LI>Rios,
+       		  Antonio
+	      	  (cfsu202-18)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                10.0,
+                9.0-
+                Nota final:9.5-->
+      <UL>
+        <LI>Rodríguez,
+       		  Roque
+	      	  (cfsu202-19)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                6.0,
+                7.0-
+                Nota final:6.5-->
+      <UL>
+        <LI>Sanabria,
+       		  Alfonso
+	      	  (cfsu202-20)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                5.0,
+                9.0-
+                Nota final:7.0-->
+      <UL>
+        <LI>Torres,
+       		  Miguel
+	      	  (cfsu202-21)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                6.0,
+                8.0-
+                Nota final:7.0-->
+      <UL>
+        <LI>Torres,
+       		  Jorge
+	      	  (cfsu202-22)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                6.0,
+                10.0-
+                Nota final:8.0-->
+      <UL>
+        <LI>Valor,
+       		  Pedro
+	      	  (cfsu202-23)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                7.0,
+                9.0-
+                Nota final:8.0-->
+      <UL>
+        <LI>Vilariño,
+       		  Jose María
+	      	  (cfsu202-24)
+                </LI>
+      </UL>
+      <!--
+                Las notas obtenidas:
+                4.0,
+                3.0-
+                Nota final:3.5-->
+    </DIV>
+  </BODY>
+</HTML>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="Ejemplo9.xsl"?>
+<notas>
+	<alumno convocatoria="Sept">
+		<nombre>Belén</nombre>
+		<apellidos>Bautista</apellidos>
+		<nexped>cfsu202-01</nexped>
+		<nota-teoria>5.0</nota-teoria>
+		<nota-practica>9.0</nota-practica>
+		<nota-final>7</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Sara</nombre>
+		<apellidos>Bosch</apellidos>
+		<nexped>cfsu202-02</nexped>
+		<nota-teoria>6.5</nota-teoria>
+		<nota-practica>7.0</nota-practica>
+		<nota-final>6.75</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Rafael</nombre>
+		<apellidos>Fernández</apellidos>
+		<nexped>cfsu202-03</nexped>
+		<nota-teoria>7.0</nota-teoria>
+		<nota-practica>7.5</nota-practica>
+		<nota-final>7.25</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Antonio</nombre>
+		<apellidos>Fuentes-Robles</apellidos>
+		<nexped>cfsu202-04</nexped>
+		<nota-teoria>6.0</nota-teoria>
+		<nota-practica>10.0</nota-practica>
+		<nota-final>8</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Manuel</nombre>
+		<apellidos>Galán</apellidos>
+		<nexped>cfsu202-05</nexped>
+		<nota-teoria>6.0</nota-teoria>
+		<nota-practica>8.5</nota-practica>
+		<nota-final>7.25</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Juan Antonio</nombre>
+		<apellidos>García</apellidos>
+		<nexped>cfsu202-06</nexped>
+		<nota-teoria>5.0</nota-teoria>
+		<nota-practica>5.5</nota-practica>
+		<nota-final>5.25</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Fernando</nombre>
+		<apellidos>González</apellidos>
+		<nexped>cfsu202-07</nexped>
+		<nota-teoria>7.0</nota-teoria>
+		<nota-practica>7.0</nota-practica>
+		<nota-final>7.0</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>José Luis</nombre>
+		<apellidos>López</apellidos>
+		<nexped>cfsu202-08</nexped>
+		<nota-teoria>8.0</nota-teoria>
+		<nota-practica>9.0</nota-practica>
+		<nota-final>8.5</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Juan Manuel</nombre>
+		<apellidos>Macarro</apellidos>
+		<nexped>cfsu202-09</nexped>
+		<nota-teoria>6.5</nota-teoria>
+		<nota-practica>8.0</nota-practica>
+		<nota-final>7.25</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>José Manuel</nombre>
+		<apellidos>Marchena</apellidos>
+		<nexped>cfsu202-10</nexped>
+		<nota-teoria>9.0</nota-teoria>
+		<nota-practica>9.0</nota-practica>
+		<nota-final>9.0</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>María</nombre>
+		<apellidos>Márquez</apellidos>
+		<nexped>cfsu202-11</nexped>
+		<nota-teoria>8.0</nota-teoria>
+		<nota-practica>8.0</nota-practica>
+		<nota-final>8.0</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Ricardo</nombre>
+		<apellidos>Martín</apellidos>
+		<nexped>cfsu202-12</nexped>
+		<nota-teoria>6.5</nota-teoria>
+		<nota-practica>6.5</nota-practica>
+		<nota-final>6.5</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Alvaro</nombre>
+		<apellidos>Martínez</apellidos>
+		<nexped>cfsu202-13</nexped>
+		<nota-teoria>8.0</nota-teoria>
+		<nota-practica>9.0</nota-practica>
+		<nota-final>8.5</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Francisco</nombre>
+		<apellidos>Morán</apellidos>
+		<nexped>cfsu202-14</nexped>
+		<nota-teoria>7.0</nota-teoria>
+		<nota-practica>6.0</nota-practica>
+		<nota-final>6.5</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Sergio</nombre>
+		<apellidos>Naranjo</apellidos>
+		<nexped>cfsu202-15</nexped>
+		<nota-teoria>8.0</nota-teoria>
+		<nota-practica>7.0</nota-practica>
+		<nota-final>7.5</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Claudio</nombre>
+		<apellidos>Nuñez</apellidos>
+		<nexped>cfsu202-16</nexped>
+		<nota-teoria>9.0</nota-teoria>
+		<nota-practica>9.0</nota-practica>
+		<nota-final>9.0</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Francisco Javier</nombre>
+		<apellidos>Payán</apellidos>
+		<nexped>cfsu202-17</nexped>
+		<nota-teoria>5.0</nota-teoria>
+		<nota-practica>6.0</nota-practica>
+		<nota-final>5.5</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Antonio</nombre>
+		<apellidos>Rios</apellidos>
+		<nexped>cfsu202-18</nexped>
+		<nota-teoria>10.0</nota-teoria>
+		<nota-practica>9.0</nota-practica>
+		<nota-final>9.5</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Roque</nombre>
+		<apellidos>Rodríguez</apellidos>
+		<nexped>cfsu202-19</nexped>
+		<nota-teoria>6.0</nota-teoria>
+		<nota-practica>7.0</nota-practica>
+		<nota-final>6.5</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Alfonso</nombre>
+		<apellidos>Sanabria</apellidos>
+		<nexped>cfsu202-20</nexped>
+		<nota-teoria>5.0</nota-teoria>
+		<nota-practica>9.0</nota-practica>
+		<nota-final>7.0</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Miguel</nombre>
+		<apellidos>Torres</apellidos>
+		<nexped>cfsu202-21</nexped>
+		<nota-teoria>6.0</nota-teoria>
+		<nota-practica>8.0</nota-practica>
+		<nota-final>7.0</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Jorge</nombre>
+		<apellidos>Torres</apellidos>
+		<nexped>cfsu202-22</nexped>
+		<nota-teoria>6.0</nota-teoria>
+		<nota-practica>10.0</nota-practica>
+		<nota-final>8.0</nota-final>
+	</alumno>
+	<alumno convocatoria="Sept">
+		<nombre>Pedro</nombre>
+		<apellidos>Valor</apellidos>
+		<nexped>cfsu202-23</nexped>
+		<nota-teoria>7.0</nota-teoria>
+		<nota-practica>9.0</nota-practica>
+		<nota-final>8.0</nota-final>
+	</alumno>
+	<alumno convocatoria="Jun">
+		<nombre>Jose María</nombre>
+		<apellidos>Vilariño</apellidos>
+		<nexped>cfsu202-24</nexped>
+		<nota-teoria>4.0</nota-teoria>
+		<nota-practica>3.0</nota-practica>
+		<nota-final>3.5</nota-final>
+	</alumno>
+</notas>
