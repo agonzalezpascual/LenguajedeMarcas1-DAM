@@ -1,198 +1,198 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="Hoja.xsl"?>
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Hoj3Cine.xsl"?>
 <Cine>
-	<Películas>
-		<Película Género="Drama" Año="1996">
-			<Título Idioma="Español">El Cartero (y Pablo Neruda)</Título>
-			<Título Idioma="Italiano">Il Postino</Título>
-			<Duración Magnitud="minutos">108</Duración>
-			<Director País="Italia">Michael Radford</Director>
-			<Intérprete>Philippe Noiret</Intérprete>
-			<Intérprete>Massimo Troisi</Intérprete>
-			<Intérprete>Maria Grazia Cucinotta</Intérprete>
+	<PelÃ­culas>
+		<PelÃ­cula GÃ©nero="Drama" AÃ±o="1996">
+			<TÃ­tulo Idioma="EspaÃ±ol">El Cartero (y Pablo Neruda)</TÃ­tulo>
+			<TÃ­tulo Idioma="Italiano">Il Postino</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">108</DuraciÃ³n>
+			<Director PaÃ­s="Italia">Michael Radford</Director>
+			<IntÃ©rprete>Philippe Noiret</IntÃ©rprete>
+			<IntÃ©rprete>Massimo Troisi</IntÃ©rprete>
+			<IntÃ©rprete>Maria Grazia Cucinotta</IntÃ©rprete>
 			<Argumento>
-                          La vida de una pequeña isla italiana se verá alterada por la llegada del ilustre poeta chileno Pablo Neruda, forzado al exilio. Con el tiempo entabla amistad con el cartero que le lleva la correspondencia, surgiendo en éste el gusto y aprecio por la poesía.
+                          La vida de una pequeÃ±a isla italiana se verÃ¡ alterada por la llegada del ilustre poeta chileno Pablo Neruda, forzado al exilio. Con el tiempo entabla amistad con el cartero que le lleva la correspondencia, surgiendo en Ã©ste el gusto y aprecio por la poesÃ­a.
                     </Argumento>
-		</Película>
-		<Película Género="Comedia" Año="1989">
-			<Título Idioma="Español">Cinema Paradiso</Título>
-			<Título Idioma="Italiano">Cinema Paradiso</Título>
-			<Duración Magnitud="minutos">124</Duración>
-			<Director País="Italia">Guiseppe Tornatore</Director>
-			<Intérprete>Philippe Noiret</Intérprete>
-			<Intérprete>Jacques Perrin</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Comedia" AÃ±o="1989">
+			<TÃ­tulo Idioma="EspaÃ±ol">Cinema Paradiso</TÃ­tulo>
+			<TÃ­tulo Idioma="Italiano">Cinema Paradiso</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">124</DuraciÃ³n>
+			<Director PaÃ­s="Italia">Guiseppe Tornatore</Director>
+			<IntÃ©rprete>Philippe Noiret</IntÃ©rprete>
+			<IntÃ©rprete>Jacques Perrin</IntÃ©rprete>
 			<Argumento>
-                          Un famoso director de cine de la localidad siciliana de Giancaldo, vuelve tras muchos años al funeral de Alfredo, que fuera proyectista del Cinema Paradiso y con quien compartió vivencias y películas. Su regreso provoca en él una serie de recuerdos.
+                          Un famoso director de cine de la localidad siciliana de Giancaldo, vuelve tras muchos aÃ±os al funeral de Alfredo, que fuera proyectista del Cinema Paradiso y con quien compartiÃ³ vivencias y pelÃ­culas. Su regreso provoca en Ã©l una serie de recuerdos.
                     </Argumento>
-		</Película>
-		<Película Género="Suspense" Año="1992">
-			<Título Idioma="Español">Los Otros</Título>
-			<Título Idioma="Inglés">The Others</Título>
-			<Duración Magnitud="minutos">140</Duración>
-			<Director País="España">Alejandro Amenábar</Director>
-			<Intérprete>Nicole Kidman</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Suspense" AÃ±o="1992">
+			<TÃ­tulo Idioma="EspaÃ±ol">Los Otros</TÃ­tulo>
+			<TÃ­tulo Idioma="InglÃ©s">The Others</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">140</DuraciÃ³n>
+			<Director PaÃ­s="EspaÃ±a">Alejandro AmenÃ¡bar</Director>
+			<IntÃ©rprete>Nicole Kidman</IntÃ©rprete>
 			<Argumento>
-                          Una madre con sus dos hijos enfermos llegan para vivir en una casa lúgubre de un pueblo inglés. La contratación del servicio desencadena una serie de acontecimientos de difícil explicación. 
+                          Una madre con sus dos hijos enfermos llegan para vivir en una casa lÃºgubre de un pueblo inglÃ©s. La contrataciÃ³n del servicio desencadena una serie de acontecimientos de difÃ­cil explicaciÃ³n. 
                     </Argumento>
-		</Película>
-		<Película Género="Comedia" Año="1992">
-			<Título Idioma="Español">Belle Epoque</Título>
-			<Título Idioma="Inglés">Belle Epoque</Título>
-			<Duración Magnitud="minutos">137</Duración>
-			<Director País="España">Fernando Trueba</Director>
-			<Intérprete>Fernando Fernán Gómez</Intérprete>
-			<Intérprete>Jorge Sanz</Intérprete>
-			<Intérprete>Maribel Verdú</Intérprete>
-			<Intérprete>Ariadna Gil</Intérprete>
-			<Intérprete>Penélope Cruz</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Comedia" AÃ±o="1992">
+			<TÃ­tulo Idioma="EspaÃ±ol">Belle Epoque</TÃ­tulo>
+			<TÃ­tulo Idioma="InglÃ©s">Belle Epoque</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">137</DuraciÃ³n>
+			<Director PaÃ­s="EspaÃ±a">Fernando Trueba</Director>
+			<IntÃ©rprete>Fernando FernÃ¡n GÃ³mez</IntÃ©rprete>
+			<IntÃ©rprete>Jorge Sanz</IntÃ©rprete>
+			<IntÃ©rprete>Maribel VerdÃº</IntÃ©rprete>
+			<IntÃ©rprete>Ariadna Gil</IntÃ©rprete>
+			<IntÃ©rprete>PenÃ©lope Cruz</IntÃ©rprete>
 			<Argumento>
-                          Un joven deserta del ejército y viene a parar a casa de un viejo republicano. La habilidad gastronómica del joven despierta la admiración del viejo, que le invitará a quedarse unos días. La visita veraniega que realizan las hijas del viejo, ayudan a la decisión del joven de aceptar la invitación.
+                          Un joven deserta del ejÃ©rcito y viene a parar a casa de un viejo republicano. La habilidad gastronÃ³mica del joven despierta la admiraciÃ³n del viejo, que le invitarÃ¡ a quedarse unos dÃ­as. La visita veraniega que realizan las hijas del viejo, ayudan a la decisiÃ³n del joven de aceptar la invitaciÃ³n.
                     </Argumento>
-		</Película>
-		<Película Género="Comedia" Año="1998">
-			<Título Idioma="Español">La cena de los idiotas</Título>
-			<Título Idioma="Francés">Le diner des cons</Título>
-			<Duración Magnitud="minutos">77</Duración>
-			<Director País="Francia">Alain Poiré</Director>
-			<Intérprete>Thierry Lhermitte</Intérprete>
-			<Intérprete>Jacques Villeret</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Comedia" AÃ±o="1998">
+			<TÃ­tulo Idioma="EspaÃ±ol">La cena de los idiotas</TÃ­tulo>
+			<TÃ­tulo Idioma="FrancÃ©s">Le diner des cons</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">77</DuraciÃ³n>
+			<Director PaÃ­s="Francia">Alain PoirÃ©</Director>
+			<IntÃ©rprete>Thierry Lhermitte</IntÃ©rprete>
+			<IntÃ©rprete>Jacques Villeret</IntÃ©rprete>
 			<Argumento>
-                          Le mercredi, pour Pierre Brochant et ses amis, c´est le jour du "DINER DE CONS". Le principe est simple : chacun invite un con le plus spectaculaire est déclaré vainqueur.
+                          Le mercredi, pour Pierre Brochant et ses amis, cÂ´est le jour du "DINER DE CONS". Le principe est simple : chacun invite un con le plus spectaculaire est dÃ©clarÃ© vainqueur.
                     </Argumento>
-		</Película>
-		<Película Género="Comedia" Año="1997">
-			<Título Idioma="Español">Full Monty</Título>
-			<Título Idioma="Inglés">Full Monty</Título>
-			<Duración Magnitud="minutos">92</Duración>
-			<Director País="Inglaterra">Peter Cattaneo</Director>
-			<Intérprete>Robert Carlyle</Intérprete>
-			<Intérprete>Tom Wilkinson</Intérprete>
-			<Intérprete>Mark Addy</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Comedia" AÃ±o="1997">
+			<TÃ­tulo Idioma="EspaÃ±ol">Full Monty</TÃ­tulo>
+			<TÃ­tulo Idioma="InglÃ©s">Full Monty</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">92</DuraciÃ³n>
+			<Director PaÃ­s="Inglaterra">Peter Cattaneo</Director>
+			<IntÃ©rprete>Robert Carlyle</IntÃ©rprete>
+			<IntÃ©rprete>Tom Wilkinson</IntÃ©rprete>
+			<IntÃ©rprete>Mark Addy</IntÃ©rprete>
 			<Argumento>
-                          Gaz trama un plan para que él y sus amigos, cinco trabajadores del acero en paro de Sheffield, ganen mucho dinero rápidamente. Les convence de que un strip-tease masculino levantará pasiones y les llenará los bolsillos, por lo que merece la pena ¡ir a por todas!
+                          Gaz trama un plan para que Ã©l y sus amigos, cinco trabajadores del acero en paro de Sheffield, ganen mucho dinero rÃ¡pidamente. Les convence de que un strip-tease masculino levantarÃ¡ pasiones y les llenarÃ¡ los bolsillos, por lo que merece la pena Â¡ir a por todas!
                     </Argumento>
-		</Película>
-		<Película Género="Drama" Año="1989">
-			<Título Idioma="Español">Mi Padre</Título>
-			<Título Idioma="Inglés"/>
-			<Duración Magnitud="minutos">115</Duración>
-			<Director País="USA">Gary David Goldberg</Director>
-			<Intérprete>Jack Lemmon</Intérprete>
-			<Intérprete>Ted Danson</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Drama" AÃ±o="1989">
+			<TÃ­tulo Idioma="EspaÃ±ol">Mi Padre</TÃ­tulo>
+			<TÃ­tulo Idioma="InglÃ©s"/>
+			<DuraciÃ³n Magnitud="minutos">115</DuraciÃ³n>
+			<Director PaÃ­s="USA">Gary David Goldberg</Director>
+			<IntÃ©rprete>Jack Lemmon</IntÃ©rprete>
+			<IntÃ©rprete>Ted Danson</IntÃ©rprete>
 			<Argumento>
-                          Jake, un anciano con problemas de salud, pierde a su mujer. A la vista de la situación, su hijo, ejecutivo sin tiempo, tras mucho pensárselo decide ingresar a su padre en una residencia. No contento con la atención recibida, rompe su esquema de vida para poder cuidar de él.
+                          Jake, un anciano con problemas de salud, pierde a su mujer. A la vista de la situaciÃ³n, su hijo, ejecutivo sin tiempo, tras mucho pensÃ¡rselo decide ingresar a su padre en una residencia. No contento con la atenciÃ³n recibida, rompe su esquema de vida para poder cuidar de Ã©l.
                     </Argumento>
-		</Película>
-		<Película Género="Acción" Año="1992">
-			<Título Idioma="Español">Fisgones</Título>
-			<Título Idioma="Inglés">Sneakers</Título>
-			<Duración Magnitud="minutos">125</Duración>
-			<Director País="USA">Phil Alden Robinson</Director>
-			<Intérprete>Robert Redford</Intérprete>
-			<Intérprete>Sidney Poitier</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="AcciÃ³n" AÃ±o="1992">
+			<TÃ­tulo Idioma="EspaÃ±ol">Fisgones</TÃ­tulo>
+			<TÃ­tulo Idioma="InglÃ©s">Sneakers</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">125</DuraciÃ³n>
+			<Director PaÃ­s="USA">Phil Alden Robinson</Director>
+			<IntÃ©rprete>Robert Redford</IntÃ©rprete>
+			<IntÃ©rprete>Sidney Poitier</IntÃ©rprete>
 			<Argumento>
-                          Un grupo de expertos en diversas tecnologías se dedica a la lucrativa tarea de probar hasta el límite los sistemas de seguridad de grandes empresas, para proponer sus mejoras. Se verán involucrados en un enredo de espionaje que los llevará a situaciones excitantes, no exentas de peligro.
+                          Un grupo de expertos en diversas tecnologÃ­as se dedica a la lucrativa tarea de probar hasta el lÃ­mite los sistemas de seguridad de grandes empresas, para proponer sus mejoras. Se verÃ¡n involucrados en un enredo de espionaje que los llevarÃ¡ a situaciones excitantes, no exentas de peligro.
                     </Argumento>
-		</Película>
-		<Película Género="Comedia" Año="1991">
-			<Título Idioma="Español">Mujeres al borde de un ataque de nervios</Título>
-			<Duración Magnitud="minutos">108</Duración>
-			<Director País="España">Pedro Almodóvar</Director>
-			<Intérprete>Carmen Maura</Intérprete>
-			<Intérprete>Antonio Banderas</Intérprete>
-			<Intérprete>Julieta Serrano</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Comedia" AÃ±o="1991">
+			<TÃ­tulo Idioma="EspaÃ±ol">Mujeres al borde de un ataque de nervios</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">108</DuraciÃ³n>
+			<Director PaÃ­s="EspaÃ±a">Pedro AlmodÃ³var</Director>
+			<IntÃ©rprete>Carmen Maura</IntÃ©rprete>
+			<IntÃ©rprete>Antonio Banderas</IntÃ©rprete>
+			<IntÃ©rprete>Julieta Serrano</IntÃ©rprete>
 			<Argumento>
-                          Situaciones hábilmente entremezcladas que llevan a situaciones límite a una serie de mujeres cuyas vidas tienes más sombras que luces.
+                          Situaciones hÃ¡bilmente entremezcladas que llevan a situaciones lÃ­mite a una serie de mujeres cuyas vidas tienes mÃ¡s sombras que luces.
                     </Argumento>
-		</Película>
-		<Película Género="Acción" Año="2002">
-			<Título Idioma="Español">John Q</Título>
-			<Título Idioma="Inglés">John Q</Título>
-			<Duración Magnitud="minutos">120</Duración>
-			<Director País="USA">Paul Verhoeven</Director>
-			<Intérprete>Denzel Washington</Intérprete>
-			<Intérprete>Robert Duvall</Intérprete>
-			<Intérprete>Anna Heche</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="AcciÃ³n" AÃ±o="2002">
+			<TÃ­tulo Idioma="EspaÃ±ol">John Q</TÃ­tulo>
+			<TÃ­tulo Idioma="InglÃ©s">John Q</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">120</DuraciÃ³n>
+			<Director PaÃ­s="USA">Paul Verhoeven</Director>
+			<IntÃ©rprete>Denzel Washington</IntÃ©rprete>
+			<IntÃ©rprete>Robert Duvall</IntÃ©rprete>
+			<IntÃ©rprete>Anna Heche</IntÃ©rprete>
 			<Argumento>
-                          Una familia con problemas económicos, tiene que afrontar la grave enfermedad de su hijo pequeño ante la negativa de su seguro a hacer frente a los gastos derivados. La desesperación lleva a John Q a una acción extrema.
+                          Una familia con problemas econÃ³micos, tiene que afrontar la grave enfermedad de su hijo pequeÃ±o ante la negativa de su seguro a hacer frente a los gastos derivados. La desesperaciÃ³n lleva a John Q a una acciÃ³n extrema.
                     </Argumento>
-		</Película>
-		<Película Género="Drama" Año="1991">
-			<Título Idioma="Español">El Club de los Poetas Muertos</Título>
-			<Título Idioma="Inglés">Dead Poets Society</Título>
-			<Duración Magnitud="minutos">124</Duración>
-			<Director País="USA">Peter Weir</Director>
-			<Intérprete>Robin Williams</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Drama" AÃ±o="1991">
+			<TÃ­tulo Idioma="EspaÃ±ol">El Club de los Poetas Muertos</TÃ­tulo>
+			<TÃ­tulo Idioma="InglÃ©s">Dead Poets Society</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">124</DuraciÃ³n>
+			<Director PaÃ­s="USA">Peter Weir</Director>
+			<IntÃ©rprete>Robin Williams</IntÃ©rprete>
 			<Argumento>
-                          Un estricto colegio masculino americano, recluta como profesor de Literatura a un ex-alumno. Éste imprime a sus clases un tono especial que hace despertar en los alumnos el gusto por aprender más allá de las clases.
+                          Un estricto colegio masculino americano, recluta como profesor de Literatura a un ex-alumno. Ã‰ste imprime a sus clases un tono especial que hace despertar en los alumnos el gusto por aprender mÃ¡s allÃ¡ de las clases.
                     </Argumento>
-		</Película>
-		<Película Género="Drama" Año="1996">
-			<Título Idioma="Español">Sostiene Pereira</Título>
-			<Título Idioma="Portugués"/>
-			<Duración Magnitud="minutos">104</Duración>
-			<Director País="Portugal">Roberto Faenza</Director>
-			<Intérprete>Marcello Mastroianni</Intérprete>
-			<Intérprete>Daniel Auteuil</Intérprete>
-			<Intérprete>Stefano Dionisi</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Drama" AÃ±o="1996">
+			<TÃ­tulo Idioma="EspaÃ±ol">Sostiene Pereira</TÃ­tulo>
+			<TÃ­tulo Idioma="PortuguÃ©s"/>
+			<DuraciÃ³n Magnitud="minutos">104</DuraciÃ³n>
+			<Director PaÃ­s="Portugal">Roberto Faenza</Director>
+			<IntÃ©rprete>Marcello Mastroianni</IntÃ©rprete>
+			<IntÃ©rprete>Daniel Auteuil</IntÃ©rprete>
+			<IntÃ©rprete>Stefano Dionisi</IntÃ©rprete>
 			<Argumento>
-                          Lisboa, 1938. La opresiva dictadura de Salazar, la guerra civil española y el fascismo italiano están en pleno apogeo. En esta Europa recorrida por el totalitarismo, Pereira, un viejo periodista que vive en un cómodo y rutinario conformismo , está dedicado a escribir la página cultural de un mediocre periódico.
+                          Lisboa, 1938. La opresiva dictadura de Salazar, la guerra civil espaÃ±ola y el fascismo italiano estÃ¡n en pleno apogeo. En esta Europa recorrida por el totalitarismo, Pereira, un viejo periodista que vive en un cÃ³modo y rutinario conformismo , estÃ¡ dedicado a escribir la pÃ¡gina cultural de un mediocre periÃ³dico.
                     </Argumento>
-		</Película>
-		<Película Género="Drama" Año="1999">
-			<Título Idioma="Español">El Abuelo</Título>
-			<Duración Magnitud="minutos">147</Duración>
-			<Director País="España">Jose Luis Garci</Director>
-			<Intérprete>Fernando Fernán Gómez</Intérprete>
-			<Intérprete>Rafael Alonso</Intérprete>
-			<Intérprete>Cayetana Guillén Cuervo</Intérprete>
-			<Intérprete>Agustín González</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Drama" AÃ±o="1999">
+			<TÃ­tulo Idioma="EspaÃ±ol">El Abuelo</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">147</DuraciÃ³n>
+			<Director PaÃ­s="EspaÃ±a">Jose Luis Garci</Director>
+			<IntÃ©rprete>Fernando FernÃ¡n GÃ³mez</IntÃ©rprete>
+			<IntÃ©rprete>Rafael Alonso</IntÃ©rprete>
+			<IntÃ©rprete>Cayetana GuillÃ©n Cuervo</IntÃ©rprete>
+			<IntÃ©rprete>AgustÃ­n GonzÃ¡lez</IntÃ©rprete>
 			<Argumento>
-                          Don Rodrigo de Arista-Potestad, Conde de Albrit, símbolo de una familia aristocrática, tras una larga estancia en América regresa a su pueblo dispuesto a desvelar un gran secreto. Pronto descubrirá el resentimiento de un pueblo desagradecido, el poder del honor de los Arista-Potestad y el auténtico valor de su verdadera familia.
+                          Don Rodrigo de Arista-Potestad, Conde de Albrit, sÃ­mbolo de una familia aristocrÃ¡tica, tras una larga estancia en AmÃ©rica regresa a su pueblo dispuesto a desvelar un gran secreto. Pronto descubrirÃ¡ el resentimiento de un pueblo desagradecido, el poder del honor de los Arista-Potestad y el autÃ©ntico valor de su verdadera familia.
                     </Argumento>
-		</Película>
-		<Película Género="Drama" Año="2000">
-			<Título Idioma="Español">La vida es bella</Título>
-			<Título Idioma="Italiano">La vita e bella</Título>
-			<Duración Magnitud="minutos">135</Duración>
-			<Director País="Italia">Roberto Benigni</Director>
-			<Intérprete>Roberto Benigni</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Drama" AÃ±o="2000">
+			<TÃ­tulo Idioma="EspaÃ±ol">La vida es bella</TÃ­tulo>
+			<TÃ­tulo Idioma="Italiano">La vita e bella</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">135</DuraciÃ³n>
+			<Director PaÃ­s="Italia">Roberto Benigni</Director>
+			<IntÃ©rprete>Roberto Benigni</IntÃ©rprete>
 			<Argumento>
-                          La terrible y tierna historia de una familia judía confinada en un campo de concentración durante la segunda guerra mundial.
+                          La terrible y tierna historia de una familia judÃ­a confinada en un campo de concentraciÃ³n durante la segunda guerra mundial.
                     </Argumento>
-		</Película>
-		<Película Género="Suspense" Año="1995">
-			<Título Idioma="Español">La Red</Título>
-			<Título Idioma="Inglés">The Net</Título>
-			<Duración Magnitud="minutos">110</Duración>
-			<Director País="USA">Irwin Winkler</Director>
-			<Intérprete>Sandra Bullock</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Suspense" AÃ±o="1995">
+			<TÃ­tulo Idioma="EspaÃ±ol">La Red</TÃ­tulo>
+			<TÃ­tulo Idioma="InglÃ©s">The Net</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">110</DuraciÃ³n>
+			<Director PaÃ­s="USA">Irwin Winkler</Director>
+			<IntÃ©rprete>Sandra Bullock</IntÃ©rprete>
 			<Argumento>
-                          Angela Bennett es una analista informática especializada en detectar virus y anomalías en los sistemas. Su rutina diaria se convierte en una pesadilla al descubrir un programa de Internet que permite al usuario acceder a bases de datos secretas. Su vida corre un gran peligro, Angela se encuentra en un mortífera tela de araña de corrupción y conspiración, ella está atrapada en ... LA RED.
+                          Angela Bennett es una analista informÃ¡tica especializada en detectar virus y anomalÃ­as en los sistemas. Su rutina diaria se convierte en una pesadilla al descubrir un programa de Internet que permite al usuario acceder a bases de datos secretas. Su vida corre un gran peligro, Angela se encuentra en un mortÃ­fera tela de araÃ±a de corrupciÃ³n y conspiraciÃ³n, ella estÃ¡ atrapada en ... LA RED.
                     </Argumento>
-		</Película>
-		<Película Género="Suspense" Año="1991">
-			<Título Idioma="Español">El príncipe de las mareas</Título>
-			<Título Idioma="Inglés">The prince of tides</Título>
-			<Duración Magnitud="minutos">134</Duración>
-			<Director País="USA">Barbra Streisand</Director>
-			<Intérprete>Barbra Streisand</Intérprete>
-			<Intérprete>Nick Nolte</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Suspense" AÃ±o="1991">
+			<TÃ­tulo Idioma="EspaÃ±ol">El prÃ­ncipe de las mareas</TÃ­tulo>
+			<TÃ­tulo Idioma="InglÃ©s">The prince of tides</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">134</DuraciÃ³n>
+			<Director PaÃ­s="USA">Barbra Streisand</Director>
+			<IntÃ©rprete>Barbra Streisand</IntÃ©rprete>
+			<IntÃ©rprete>Nick Nolte</IntÃ©rprete>
 			<Argumento>
-                         Tras una infancia traumática que no ha conseguido olvidar, Tom Wingo se ve obligado a revivir su pasado cuando viaja a Nueva York a petición de la doctora Susan Lowenstein, una prestigiosa psiquiatra que atiende a la hermana de Tom después de que ésta intentara suicidarse varias veces.
+                         Tras una infancia traumÃ¡tica que no ha conseguido olvidar, Tom Wingo se ve obligado a revivir su pasado cuando viaja a Nueva York a peticiÃ³n de la doctora Susan Lowenstein, una prestigiosa psiquiatra que atiende a la hermana de Tom despuÃ©s de que Ã©sta intentara suicidarse varias veces.
                     </Argumento>
-		</Película>
-		<Película Género="Comedia" Año="2000">
-			<Título Idioma="Español">Salir del armario</Título>
-			<Título Idioma="Francés">Sortir du placard</Título>
-			<Duración Magnitud="minutos">103</Duración>
-			<Director País="Francia">Francis Veber</Director>
-			<Intérprete>Daniel Auteuil</Intérprete>
-			<Intérprete>Gerard Dépardieu</Intérprete>
-			<Intérprete>Thierry Lhermitte</Intérprete>
+		</PelÃ­cula>
+		<PelÃ­cula GÃ©nero="Comedia" AÃ±o="2000">
+			<TÃ­tulo Idioma="EspaÃ±ol">Salir del armario</TÃ­tulo>
+			<TÃ­tulo Idioma="FrancÃ©s">Sortir du placard</TÃ­tulo>
+			<DuraciÃ³n Magnitud="minutos">103</DuraciÃ³n>
+			<Director PaÃ­s="Francia">Francis Veber</Director>
+			<IntÃ©rprete>Daniel Auteuil</IntÃ©rprete>
+			<IntÃ©rprete>Gerard DÃ©pardieu</IntÃ©rprete>
+			<IntÃ©rprete>Thierry Lhermitte</IntÃ©rprete>
 			<Argumento>
-                          Una empresa decide echar a un trabajador del departamento de Administración. En su desesperación acepta el consejo de hacerse pasar por gay. La empresa echa marcha atrás para evitar mala imagen y las peripecias se suceden llegando a situaciones delirantes. 
+                          Una empresa decide echar a un trabajador del departamento de AdministraciÃ³n. En su desesperaciÃ³n acepta el consejo de hacerse pasar por gay. La empresa echa marcha atrÃ¡s para evitar mala imagen y las peripecias se suceden llegando a situaciones delirantes. 
                     </Argumento>
-		</Película>
-	</Películas>
+		</PelÃ­cula>
+	</PelÃ­culas>
 </Cine>
