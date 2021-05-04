@@ -1,3 +1,5 @@
+from datetime import datetime
+
 class Direccion:
 
     def __init__(self, codigo, calle, codPos, localidad, pais):
@@ -35,7 +37,7 @@ class Producto:
         self.__peso = peso
 
     def __str__(self):
-        return f"El producto {self.__nombre} con código interno {self.__id} y código de barras {self.__codigo} fué incorporado el {self.__incorporacion}, tiene un precio de {self.__precio} y pesa {self.__peso}"
+        return f"El producto {self.__nombre} con código interno {self.__id} y código de barras {self.__codigo} fué incorporado el {self.__incorporacion}, tiene un precio de {self.__precio} € y pesa {self.__peso} kg"
 
 
 class CarritoCompra:
@@ -55,20 +57,25 @@ def pasaProd(lista):
         productos += i.__str__() + "\n"
     return productos
 
+now = datetime.now()
 d = Direccion(10, "Dr Barraquer nº13", "41908", "Castilleja de Guzman", "España")
-c = Cliente(1, "Alfonso", "Gonzalez Pascual", "54181345S", "09/01", "30/04/2020", d)
-p = Producto(3, "0877666", "Patatas fritas", "30/04/2021", "1.25", "0.33")
-p2 = Producto(2, "0874566", "Piza de piña", "30/04/2021", "3.50", "0.4")
-p3 = Producto(22, "0564566", "Jamón york", "30/04/2021", "2.00", "0.25")
-ca = CarritoCompra(4, [p,p2,p3],c,"30/04/2021")
+c = Cliente(1, "Alfonso", "Gonzalez Pascual", "54181345S", "09/01", "2021-04-30", d)
+p = Producto(3, "0877666", "Patatas fritas", now.date(), "1.25", "0.33")
+p2 = Producto(2, "0874566", "Piza de piña", now.date(), "3.50", "0.4")
+p3 = Producto(22, "0564566", "Jamón york", now.date(), "2.00", "0.25")
+ca = CarritoCompra(4, [p,p2,p3],c,now.date())
+print("Dirección:")
 print(d)
 print()
+print("Cliente:")
 print(c)
 print()
+print("Productos:")
 print(p)
 print()
 print(p2)
 print()
 print(p3)
 print()
+print("Carrito:")
 print(ca)
