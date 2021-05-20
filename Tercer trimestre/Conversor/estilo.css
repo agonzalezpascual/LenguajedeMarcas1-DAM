@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+}
+
+body{
+    font-family:montserrat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#b3d8bba8;
+}
+
+body div.miconversor{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height:320px;
+    margin: 0 auto;
+    background:#b3d8be;
+    border-radius: 10px;
+}
+body h1{
+    margin-top:30px;
+}
+body div.contenedor{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height:160px;
+    margin: 0 auto;
+    background:#659b64;
+    border-radius: 10px;
+    margin-top:30px;
+}
+
+div input[type='button'], button{
+    width: 100px;
+    height: 30px;
+    margin: 3px 0;
+    background-color: rgb(6, 126, 46);
+    color: white;
+    border: 1px solid rgb(6, 126, 46);
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+div input[type="radio"]{
+
+    margin-left: 15px;
+
+}
+
+div input[type="textarea"]{
+
+    margin-left: 15px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 5px;
+    width: 200px;
+    color:#777;
+
+}
+div input[id="display2"]{
+
+    margin-top: 15px;
+    
+}
+
+label [id="texto"], input[id="display"]{
+
+    margin-top: 30px;
+
+}
+
+input.display{
+
+    margin: 10px;
+
+}

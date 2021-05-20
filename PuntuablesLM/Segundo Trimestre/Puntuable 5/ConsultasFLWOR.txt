@@ -1,0 +1,94 @@
+
+1)
+b)
+for $libro in doc("libros_ep2t5a.xml")//libro
+return $libro
+
+
+c)
+for $libro in doc("libros_ep2t5a.xml")//libro
+return $libro/titulo
+
+d)
+for $libro in doc("libros_ep2t5a.xml")//libro
+where $libro/paginas>500
+return $libro/titulo
+
+e)
+<html>
+  <head>
+  <title> Consulta 4</title>
+  </head>
+  <body>
+  
+    <table table-border="1">
+    <tr>
+    <td>Titulo</td>
+    <td>Autor</td>
+    </tr>
+      {for $libro in doc("libros_ep2t5a.xml")//libro
+        return <tr> 
+            <td>{$libro/titulo}</td>
+            <td>{$libro/autor}</td>
+          </tr>
+}
+    
+    </table>
+  
+  </body>
+</html>
+
+f)
+<html>
+  <head>
+  <title> Consulta 4</title>
+  </head>
+  <body>
+  
+    <table table-border="1">
+    <tr>
+    <td>Titulo</td>
+    <td>Autor</td>
+    </tr>
+      {for $libro in doc("libros_ep2t5a.xml")//libro
+      where $libro/paginas>150
+        return <tr> 
+            <td>{$libro/titulo}</td>
+            <td>{$libro/autor}</td>
+          </tr>
+}
+    
+    </table>
+  
+  </body>
+</html>
+
+g)
+insert node <libro categoria="Fantasía">
+ <titulo idio="es">Las dos torres</titulo>
+ <año>1954</año>
+ <paginas>352</paginas>
+ <precio>19.99</precio>
+ </libro> as last into doc("libros_ep2t5a.xml")//libreria
+
+h)
+replace node 
+doc("libros_ep2t5a.xml")//libreria/libro[titulo="Las dos torres"]/precio
+with <precio>9.95</precio>
+
+i)
+delete node doc("libros_ep2t5a.xml")//libreria/libro[titulo="Las dos torres"]
+
+2)
+a)
+for $c in doc("envio_ep2t5b.xml")//envio/poliza[1]/asegurado
+return 
+<newaseg>
+  <nombre>{data([$c/@nombre])}</nombre>
+  <apellidos>{data([$c/@apellidos])}</apellidos>
+</newaseg>
+
+b)
+let $asegurados :=  doc("envio_ep2t5b.xml")//envio/poliza/asegurado
+let $count := count($asegurados)
+ return <cuenta> {data($count)}</cuenta>
