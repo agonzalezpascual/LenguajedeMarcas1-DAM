@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--<?xml-stylesheet type="text/xsl" href=" p4_des_a.xsl"?>--><?xml-stylesheet type="text/xsl" href=" p4_des_b.xsl"?>
+
+<prueba2t>
+	<descarga>
+		<ipserver>82.126.33.112</ipserver>
+		<ipuser>192.168.1.34</ipuser>
+		<fecha>
+			<dia>22</dia>
+			<mes>01</mes>
+			<anio>2011</anio>
+		</fecha>
+		<duracion magn="segundos">1622</duracion>
+		<fichero formato="mp3">
+			<nombre>Porompompero</nombre>
+			<tipo>Música</tipo>
+			<peso magn="Kb">1234</peso>
+		</fichero>
+		<fichero formato="avi">
+			<nombre>Habana</nombre>
+			<tipo>Película</tipo>
+			<peso magn="Kb">218856</peso>
+		</fichero>
+		<fichero formato="ogg">
+			<nombre>Angie</nombre>
+			<tipo>Música</tipo>
+			<peso magn="Kb">1886</peso>
+		</fichero>
+		<fichero formato="ogg">
+			<nombre>Ice Hotel</nombre>
+			<tipo>Película</tipo>
+			<peso magn="Kb">383786</peso>
+		</fichero>
+	</descarga>
+	<descarga>
+		<ipserver>81.125.32.111</ipserver>
+		<ipuser>192.168.1.33</ipuser>
+		<fecha>
+			<dia>20</dia>
+			<mes>01</mes>
+			<anio>2011</anio>
+		</fecha>
+		<duracion magn="segundos">561</duracion>
+		<fichero formato="mp3">
+			<nombre>London's Calling</nombre>
+			<tipo>Música</tipo>
+			<peso magn="Kb">1342</peso>
+		</fichero>
+		<fichero formato="avi">
+			<nombre>Bones</nombre>
+			<tipo>Película</tipo>
+			<peso magn="segundos">218796</peso>
+		</fichero>
+	</descarga>
+	<descarga>
+		<ipserver>80.124.31.110</ipserver>
+		<ipuser>192.168.1.32</ipuser>
+		<fecha>
+			<dia>19</dia>
+			<mes>01</mes>
+			<anio>2011</anio>
+		</fecha>
+		<duracion magn="segundos">246</duracion>
+		<fichero formato="mp3">
+			<nombre>Promise</nombre>
+			<tipo>Música</tipo>
+			<peso magn="Kb">1432</peso>
+		</fichero>
+		<fichero formato="ogg">
+			<nombre>Deixa</nombre>
+			<tipo>Música</tipo>
+			<peso magn="Kb">2156</peso>
+		</fichero>
+	</descarga>
+</prueba2t>

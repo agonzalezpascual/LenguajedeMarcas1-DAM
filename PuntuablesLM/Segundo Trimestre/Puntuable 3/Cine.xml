@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="Hoj3Cine.xsl"?>
+<!--<?xml-stylesheet type="text/xsl" href="Hoj1Cine.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="Hoj2Cine.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="Hoj3Cine.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="Hoj4Cine.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="Hoj5Cine.xsl"?>-->
+<!----><?xml-stylesheet type="text/xsl" href="Hoj6Cine.xsl"?>
 <Cine>
 	<Películas>
 		<Película Género="Drama" Año="1996">
@@ -185,7 +190,7 @@
 		<Película Género="Comedia" Año="2000">
 			<Título Idioma="Español">Salir del armario</Título>
 			<Título Idioma="Francés">Sortir du placard</Título>
-			<Duración Magnitud="minutos">103</Duración>
+			<Duración Magnitud="minutos">123</Duración>
 			<Director País="Francia">Francis Veber</Director>
 			<Intérprete>Daniel Auteuil</Intérprete>
 			<Intérprete>Gerard Dépardieu</Intérprete>
