@@ -3,36 +3,32 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Hoj2Cine</title>
+                <title>Hoj3Cine</title>
             </head>
             <body>
-                <h2 align="center">Listado de Películas</h2>
+                <h1 align="center">Listado de Películas</h1>
 
                 <xsl:for-each select="Cine/Películas/Película">
                     <xsl:sort select="Título[@Idioma='Francés']" order="ascending"/>
-                    <div>
-                    <hr/>
-                    <B>Datos de la película:</B>
-                    <xsl:value-of select="Título"/>
-                    <hr/>
-                    <p>Director
-                        <xsl:value-of select="Director"/>
-                    </p>
-                    <p>Director
-                        <xsl:value-of select="Duración"/>
-                        <xsl:choose>
-                            
-                            <xsl:when test="Duración &gt; 120">(Largo)</xsl:when>
-                            <xsl:when test="Duración &lt; 90">(Corto)</xsl:when>
-                            <xsl:otherwise>(Mediano)</xsl:otherwise>
-                            
-                        </xsl:choose>
-                    </p>
-                    <p>Argumento:
-                        <xsl:value-of select="Argumento"/>
-                    </p>
-                    </div>
+                    <xsl:if test="Título[@Idioma='Francés']">
+                        <div>
+                            <hr/>
+                           <p><B>Datos de la película:
+                            <xsl:value-of select="Título"/></B></p>
+                            <hr/>
+                            <p>Director:
+                                <xsl:value-of select="Director"/>
+                            </p>
+                            <p>Duración:
+                                <xsl:value-of select="Duración"/>
+                            </p>
+                            <p>Argumento:
+                                <xsl:value-of select="Argumento"/>
+                            </p>
+                        </div>
+                    </xsl:if>
                 </xsl:for-each>
+                <hr/>
             </body>
         </html>
     </xsl:template>

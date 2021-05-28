@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>EP3T_2</title>
+</head>
+
+<body>
+    
+        <div class="miconversor" id="miconversor">
+            <form name="conversor" id="conversor">
+
+            <h1>CONVERSOR DE MONEDA</h1>
+            <div class="contenedor">
+                <div id="cantidad">
+                    <label id="texto"><b>Introduzca la cantidad: </b></label>
+                    <input type="textarea" id="display" class="display"/>
+                </div>
+
+                <div class="moneda">
+                    <input type="radio" value="Euros" name="moneda" id="Euros" /> <b>Euros</b>
+                    <input type="radio" value="Dólares" name="moneda" id="Dólares" /> <b>Dólares </b>
+                    <input type="button" value="Convertir" onclick="Convertir()">
+                </div>
+
+                
+                    <input type="textarea" id="display2" readonly />
+                
+            </div>
+        </form>
+        </div>
+   
+
+    <script src="conversor.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+delete node doc("libros_ep2t5a.xml")//libreria/libro[titulo="Las dos torres"]

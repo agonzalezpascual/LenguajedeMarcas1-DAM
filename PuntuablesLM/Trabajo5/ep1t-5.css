@@ -1,0 +1,105 @@
+body{
+    background-color: #BFD7C1;
+    font-family: Arial;
+    font-size: 15px;
+}
+a{
+    border:none white;
+    color: rgba(50, 50, 50, .5);
+    box-shadow: 3px 3px 5px;
+    background: rgba(50, 50, 50, .5);
+}
+img{
+    float:left;
+    width: 125px;
+    height: 125px;
+    border-radius: 12px;
+    margin:10px;
+    box-shadow: 3px 3px 5px;
+    background: rgba(50, 50, 50, .5);
+}
+div{
+    margin-left:auto;
+    margin-right:auto;
+}
+#div1{
+    background-color: #FFCC33;
+    width: 506px;
+    height: 140px;
+    border-radius: 15px;
+    padding:20px;
+}
+#enc1{
+    color: #348A00;
+    text-align: justify;
+    margin:10px;
+}
+#enc2{
+    margin-top: -2px;
+    text-align: center;
+}
+#div2{
+    background-color: #87C489;
+    width: 506px;
+    height: auto;
+    border-radius: 15px;
+    padding:20px;
+}
+input{
+    border:none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+input:focus{
+    background-color: #E5E6E7;
+}
+#Nomcampo{
+    font-family: Arial;
+    font-weight: bold;
+}
+#asterisco{
+    font-weight: bold;
+    color:#E5E6E7;
+}
+#camposinput{
+    width: 450px;
+    height: 25px;
+    size:15px;
+    padding:2px;
+}
+#div3{
+    margin-top: 30px;
+}
+#texto{
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+}
+select{
+    width: 450px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+}
+select:focus{
+    background-color: #E5E6E7;
+}
+label{
+    margin-left: 10px;
+}
+#boton{
+    background-color: #6EA070;
+    color: #BFD7C1;
+    border:none;
+    width: 450px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+textarea:focus{
+    background-color: #E5E6E7;
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<libreria>
+	<libro categoria="Cocina">
+		<titulo idio="en">Everyday Italian</titulo>
+		<autor>Giada De Laurentiis</autor>
+		<año>2005</año>
+		<paginas>200</paginas>
+		<precio>30.00</precio>
+	</libro>
+	<libro categoria="Infantil">
+		<titulo idio="en">Harry Potter</titulo>
+		<autor>J K. Rowling</autor>
+		<año>2005</año>
+		<paginas>120</paginas>
+		<precio>29.99</precio>
+	</libro>
+	<libro categoria="Web">
+		<titulo idio="en">XQuery Kick Start</titulo>
+		<autor>James McGovern</autor>
+		<autor>Per Bothner</autor>
+		<autor>Kurt Cagle</autor>
+		<autor>James Linn</autor>
+		<autor>Vaidyanathan Nagarajan</autor>
+		<año>2003</año>
+		<paginas>527</paginas>
+		<precio>49.99</precio>
+	</libro>
+	<libro categoria="Web">
+		<titulo idio="en">Learning XML</titulo>
+		<autor>Erik T. Ray</autor>
+		<año>2003</año>
+		<paginas>136</paginas>
+		<precio>39.95</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">The Fellowship of the Ring</titulo>
+		<autor>J.R.R. Tolkien</autor>
+		<año>1954</año>
+		<paginas>423</paginas>
+		<precio>24.99</precio>
+	</libro>
+	<libro categoria="Distopía">
+		<titulo idio="en">Nineteen Eighty-Four</titulo>
+		<autor>George Orwell</autor>
+		<año>1949</año>
+		<paginas>356</paginas>
+		<precio>24.99</precio>
+	</libro>
+	<libro categoria="Fantasía">
+		<titulo idio="en">The Neverending Story</titulo>
+		<autor>Michael Ende</autor>
+		<año>1979</año>
+		<paginas>448</paginas>
+		<precio>14.99</precio>
+	</libro>
+	<libro categoria="Ciencia ficción">
+		<titulo idio="es">Amanecer Rojo</titulo>
+		<autor>Pierce Brown</autor>
+		<año>2014</año>
+		<paginas>382</paginas>
+		<precio>11.46</precio>
+	</libro>
+	<libro categoria="Novela histórica">
+		<titulo idio="es">Dos años en la Ciudad Prohibida</titulo>
+		<autor>Tzu-Hsi</autor>
+		<año>1913</año>
+		<paginas>317</paginas>
+		<precio>13.50</precio>
+	</libro>
+	<libro categoria="Tragedia">
+		<titulo idio="es">Los Miserables</titulo>
+		<autor>Victor Hugo</autor>
+		<año>1862</año>
+		<paginas>1910</paginas>
+		<precio>9.99</precio>
+	</libro>
+	<libro categoria="Novela histórica">
+		<titulo idio="es">El Conde de Montecristo</titulo>
+		<autor>Alexander Dumas</autor>
+		<año>1844</año>
+		<paginas>1050</paginas>
+		<precio>8.65</precio>
+	</libro>
+	<libro categoria="Novela filosófica">
+		<titulo idio="es">El árbol de la ciencia</titulo>
+		<autor>Pío Baroja</autor>
+		<año>1911</año>
+		<paginas>304</paginas>
+		<precio>9.69</precio>
+	</libro>
+	<libro categoria="Obra teatral">
+		<titulo idio="es">Luces de bohemia</titulo>
+		<autor>Ramón María del Valle-Inclán</autor>
+		<año>1920</año>
+		<paginas>296</paginas>
+		<precio>10.00</precio>
+	</libro>
+</libreria>

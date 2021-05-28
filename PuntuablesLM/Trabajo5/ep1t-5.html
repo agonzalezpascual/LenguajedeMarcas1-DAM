@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio Puntuable EP1T-5</title>
+    <link rel="stylesheet" type="text/css" href="ep1t-5.css"/>
+</head>
+<body>
+<div id="div1">
+    <a  href="https://es.wikipedia.org/wiki/Acuerdo_de_Par%C3%ADs"><img src="manzterra.jpg" alt="La imagen no ha cargado" /></a>
+    <h1 id="enc1">¿Conoces el Acuerdo del Clima firmado en París?</h1>
+</div>
+
+<div id="div2">
+    <h1 id="enc2">¡Con tu apoyo, lo lograremos!</h1>
+    <form action="mailto:atolon@fundacionsafa.es" method="post" enctype="text/plain">
+        <div id="div3">
+        <label id="Nomcampo">Nombre:</label><span id="asterisco">*</span>
+        <input type="text" id="camposinput" name="nombre" placeholder="Nombre y primer apellido" required>
+        </div>
+        <div id="div3">
+        <label id="Nomcampo">Sexo:</label><span id="asterisco">*</span>
+        <input type="radio" id="camposinputr" name="sexo" required>Hombre
+        <input type="radio" id="camposinputr" name="sexo" required>Mujer<br/>
+        </div>
+        <div id="div3">
+        <label id="Nomcampo">Dirección de correo:</label><span id="asterisco">*</span>
+        <input type="email" id="camposinput" name="correo"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="identificador@dominio.com" required>
+        </div>
+        <div id="div3">
+         <label id="Nomcampo">Blog que recominedas leer:</label>
+        <input type="url" id="camposinput" name="blog">
+        </div>
+        <div id="div3">
+         <label id="Nomcampo">Puedo colaborar:</label><br/>
+        <select required>
+            <option value="" disabled selected hidden>---</option>
+            <option value="0">Difundiéndolo en redes sociales</option>
+            <option value="1">Impartiendo charlas sobre el tema</option>
+            <option value="2">Organizando concentraciones de apoyo</option>
+        </select><br/>
+        </div>
+        <div id="div3">
+        <label id="Nomcampo">Mensaje que nos dejas:<span id="asterisco">*</span></label>
+        <textarea name="textarea" id="texto" rows="10" cols="54" placeholder="Deja aquí tu mensaje" required></textarea>
+        </div>
+        <div id="div3">
+            <button type="submit" id="boton">Envíalo</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>
