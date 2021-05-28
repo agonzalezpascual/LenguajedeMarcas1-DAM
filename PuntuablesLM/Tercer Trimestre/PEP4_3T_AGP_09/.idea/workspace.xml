@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfbd144a-8b96-4c80-b015-226b7d319813" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pp3tpp2_cs1AGP_09/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pp3tpp2_cs1AGP_09/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pp3tpp2_cs1AGP_09/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pp3tpp2_cs1AGP_09/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pp3tpp2_cs1AGP_09/.idea/pp3tpp2_cs1AGP_09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pp3tpp2_cs1AGP_09/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pp3tpp2_cs1AGP_09/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pp3tpp2_cs1AGP_09/pp3ttpp2_cs1AGP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Trabajo Tercer Trimestre/DjangoEquipo4/.idea/djangoProject12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Trabajo Tercer Trimestre/DjangoEquipo4/djangoProject1/.idea/djangoProject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JupyterTrust" id="7b216338-e906-4db5-aaee-93bc59ef2f1e" />
+  <component name="ProjectId" id="1s4CW0wuEBayFgvcc6MRx5n9ubf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="Prueba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PEP4_3T_AGP_09" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prueba.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PEP4_3T_AGP_09" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Prueba" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfbd144a-8b96-4c80-b015-226b7d319813" name="Default Changelist" comment="" />
+      <created>1620122502225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620122502225</updated>
+      <workItem from="1620122515747" duration="26221000" />
+      <workItem from="1621321462870" duration="3841000" />
+      <workItem from="1621577672315" duration="3745000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="500" y="183" key="FileChooserDialogImpl" timestamp="1621577737458">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="183" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1621577737458" />
+    <state width="1380" height="2" key="GridCell.Tab.0.bottom" timestamp="1621443554638">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="2" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1621443554638" />
+    <state width="1380" height="2" key="GridCell.Tab.0.center" timestamp="1621443554638">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="2" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1621443554638" />
+    <state width="1380" height="2" key="GridCell.Tab.0.left" timestamp="1621443554638">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="2" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1621443554638" />
+    <state width="1380" height="2" key="GridCell.Tab.0.right" timestamp="1621443554638">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="2" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1621443554638" />
+    <state width="1380" height="143" key="GridCell.Tab.1.bottom" timestamp="1621012871675">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="143" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1621012871675" />
+    <state width="1380" height="143" key="GridCell.Tab.1.center" timestamp="1621012871674">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="143" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1621012871674" />
+    <state width="1380" height="143" key="GridCell.Tab.1.left" timestamp="1621012871674">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="143" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1621012871674" />
+    <state width="1380" height="143" key="GridCell.Tab.1.right" timestamp="1621012871675">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="143" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1621012871675" />
+    <state x="221" y="75" key="SettingsEditor" timestamp="1621012022485">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1621012022485" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PEP4_3T_AGP_09$main.coverage" NAME="main Coverage Results" MODIFIED="1621327103705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PEP4_3T_AGP_09$Prueba.coverage" NAME="Prueba Coverage Results" MODIFIED="1620497396947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
