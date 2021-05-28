@@ -1,0 +1,4 @@
+manage.py makemigrations actualiza los cambios
+manage.py migrate confirma los cambios hechos
+manage.py createsuperuser crea al super usuario
+manage.py runserver abre el servidor

@@ -1,0 +1,55 @@
+#esecuerpo{
+    background-image: url("cochesito.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    background-color: #ffd56b;
+}
+#th{
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 11px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: black;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+#td{
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 11px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+
+}
+#labexito{
+    padding: 10px;
+}
+
+#pack{
+    padding-top:100px;
+    margin-top: 100px;
+
+}
+
+#divdelindex{
+    display: inline-block;
+    background-color: #939b62;
+}
+
+#holita{
+    background-color: #939b62;
+    font-size: 14px;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+#divdelindex{
+  margin-bottom: 16px;
+}
+#body{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background:#ffd56b;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+#contenedor{
+   max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#formacito{
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+#pack{background: #ffffff;
+  padding: 25px;
+  margin: 75px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+#pack label{
+   display: block;
+  font-size: 21px;
+  font-weight: 300;
+  text-align: center;
+ width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0 auto;
+}
+#pack label:nth-child(2){
+  width: 100%;
+}
+input:focus{
+  outline: 0;
+  border: 1px solid #000000;
+}
+
+#butonEnv:hover {
+  background: #ffb26b;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+#butonEnv:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+#butonEnv{
+   cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #000000;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}

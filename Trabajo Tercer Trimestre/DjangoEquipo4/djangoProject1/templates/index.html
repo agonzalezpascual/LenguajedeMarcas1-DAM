@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agregar coche</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style2.css' %}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body id="body" >
+ <div class ="container"  id="contenedor">
+     <form method="POST" action="/insertar/" id="pack">
+         {% csrf_token %}
+
+         <div id="divdelindex">
+            <label><b>Modelo</b></label>
+            <label id="formacito">{{form.CNombre}}</label>
+         </div>
+
+
+
+          <div id="divdelindex">
+            <label><b>Fabricante</b></label>
+              <label id="formacito">{{form.Cfabricante}}</label>
+         </div>
+
+
+          <div id="divdelindex">
+         <label><b>Potencia</b></label>
+              <label id="formacito">{{form.CPotencia}}</label>
+         </div>
+
+          <div id="divdelindex">
+            <label><b>C.Cúbicos</b></label>
+              <label id="formacito"> {{form.Ccentimetros}}</label>
+         </div>
+
+
+
+          <div id="divdelindex">
+            <label><b>Color</b></label>
+              <label id="formacito">{{form.CColor}}</label>
+         </div>
+
+
+          <div id="divdelindex">
+             <label><b>Máximo Pasajeros</b></label>
+              <label id="formacito">{{form.CMxPas}}</label>
+         </div>
+         <div id="divdelindex">
+             <label><b>Peso</b></label>
+             <label id="formacito">{{form.Cpeso}}</label>
+         </div>
+
+         <div id="divdelindex">
+            <label><b>Comercial</b></label>
+             <label id="formacito">{{form.CcodComercial}}</label>
+         </div>
+
+         <div><input type="submit" name="Enviar"
+         value="Enviar" id="butonEnv"></div>
+     </form>
+ </div>
+</body>
+</html>

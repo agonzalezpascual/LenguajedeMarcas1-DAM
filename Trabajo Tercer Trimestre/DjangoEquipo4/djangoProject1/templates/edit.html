@@ -1,0 +1,60 @@
+{% block content %}
+    {% if Coches.Uid %}
+    <form action = "/update/{{Coches.Uid}}" method = "POST"> 
+    {% else %}
+    {% endif %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style3.css' %}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        {% csrf_token %}  
+    <body id="body">
+
+    <div id="contenedor">
+        <div id="pack">
+            <input id="Uid" type="hidden" name="Uid" value="{{Coches.Uid}}">
+            
+            <label for="CNombre">Modelo</label> 
+            <input class="form-control
+                             form-control-lg" id="CNombre" type="text" name="CNombre" value="{{Coches.CNombre}}"> 
+
+            <label for="Cfabricante">Fabricante</label> 
+            <input class="form-control
+                             form-control-lg" id="Cfabricante" type="text" name="Cfabricante" value="{{Coches.Cfabricante}}"> 
+
+
+
+            <label for="CPotencia">Potencia</label> 
+            <input class="form-control
+                             form-control-lg" id="CPotencia" type="text" name="CPotencia" value="{{Coches.CPotencia}}"> 
+
+            <label for="Ccentimetros">C.Cúbicos</label> 
+            <input class="form-control
+                             form-control-lg" id="Ccentimetros" type="text" name="Ccentimetros" value="{{Coches.Ccentimetros}}"> 
+
+            <label for="CColor">Color</label> 
+            <input class="form-control
+                             form-control-lg" id="CColor" type="text" name="CColor" value="{{Coches.CColor}}"> 
+
+            <label for="CMxPas">Máximo PASAJEROS</label> 
+            <input class="form-control
+                             form-control-lg" id="CMxPas" type="text" name="CMxPas" value="{{Coches.CMxPas}}"> 
+
+            <label for="Cpeso">Peso</label> 
+            <input class="form-control
+                             form-control-lg" id="Cpeso" type="text" name="Cpeso" value="{{Coches.Cpeso}}"> 
+
+
+
+            <label for="CcodComercial_id">Cod Comercial</label> 
+            <input class="form-control
+                             form-control-lg" id="CcodComercial_id" type="form" name="CcodComercial_id" value="{{Coches.CcodComercial_id}}"> 
+
+        {% if Coches.Uid %}
+        <input id="butonAct" type="submit" value="Actualizar coche">
+        {% endif %}
+    </form>
+    </div>
+    </div>
+    </body>
+{% endblock %}
+

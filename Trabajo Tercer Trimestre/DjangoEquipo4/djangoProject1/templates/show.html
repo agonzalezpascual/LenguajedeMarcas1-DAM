@@ -1,0 +1,76 @@
+ 
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body id="esecuerpo">
+<div >
+    <div class="jumbotron border shadow">
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <form>
+                    <div class="input-group">
+                        <input name="q" type="text"
+                        placeholder="Buscar coche por nombre" class="form-control
+                         form-control-lg"/>
+                        <div class="input-group-append">
+                            <button class="btn btn-dark
+                              btn-lg">Buscar </button>
+                            <button class="btn btn-warning
+                              btn-lg">Limpiar busqueda </button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+  <div class="container" id="container">
+      <table class="table table-border table-borderer text-center shadow">
+          <tr>
+              <th id="th">Modelo</th>
+              <th id="th">Fabricante</th>
+              <th id="th">Potencia</th>
+              <th id="th">Centímetros cúbicos</th>
+              <th id="th">Color</th>
+              <th id="th">Maximo pasajeros</th>
+              <th id="th">Peso</th>
+              <th id="th">Comercial</th>
+              <th id="th"></th>
+              <th id="th"></th>
+
+          {% for coche in coches %}
+          <tr>
+              <td id="td">{{ coche.CNombre}}</td>
+              <td id="td">{{ coche.Cfabricante}}</td>
+              <td id="td">{{ coche.CPotencia}}</td>
+              <td id="td">{{ coche.Ccentimetros}}</td>
+              <td id="td">{{ coche.CColor}}</td>
+              <td id="td">{{ coche.CMxPas}}</td>
+              <td id="td">{{ coche.Cpeso}}</td>
+              <td id="td">{{ coche.CcodComercial}}</td>
+              <td id="td"><a href="/borrar/{{ coche.Uid }}" class="btn btn-danger btn-sm" onclick="return confirm('¿Estas Seguro?');">Borrar Coche</a></td>
+              <td id="td"><a href="/editar/{{ coche.Uid }}" class="btn btn-warning btn-sm" id = "holita">Editar Coche</a></td>
+          </tr>
+          {% endfor %}
+      </table>
+  <div>
+      <div class="col-md-12 text-center">
+          <a href="/insertar/" class="btn btn-warning btn-sm text-center" id = "holita">AGREGAR COCHE</a>
+          <br><br>
+      </div>
+  </div>
+
+  </div>
+</body>
+</html>

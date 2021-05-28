@@ -49,7 +49,6 @@ def recogeFila(id):
 def recogeTabla():
     try:
         mycursor.execute("SELECT * FROM Productos")
-        l = []
         for x in mycursor:
             p = Producto(x[0], x[1], x[2], x[3], x[4])
             print(p)
@@ -57,10 +56,10 @@ def recogeTabla():
         print("Asegurese de haber introducido datos válidos")
 
 
-def introduceFila(id, nombrePro, codBarrPro, cantPro, precioProd):
+def introduceFila(nombrePro, codBarrPro, cantPro, precioProd):
     try:
         mycursor.execute(
-            f"INSERT INTO Productos (id, nombre, codigoBarra, cantidad, precio) VALUES ({id},'{nombrePro}','{codBarrPro}',{cantPro},{precioProd})")
+            f"INSERT INTO Productos (id, nombre, codigoBarra, cantidad, precio) VALUES (null ,'{nombrePro}','{codBarrPro}',{cantPro},{precioProd})")
     except:
         print("Asegurese de haber introducido datos válidos")
 
@@ -96,7 +95,7 @@ while(True):
     opc = input("Introduzca la opción: ")
     print()
     if opc == "1":
-        PK = int(input("Introduzca la id del producto"))
+        PK = int(input("Introduzca la id del producto: "))
         recogeFila(PK)
         db.commit()
     elif opc == "2":
@@ -104,12 +103,12 @@ while(True):
         db.commit()
     elif opc == "3":
         try:
-            PK = int(input("Introduzca la id del producto: "))
+            #PK = int(input("Introduzca la id del producto: "))
             nomProd = input("Introduzca el nombre del producto: ")
             codBarr = input("Introduzca el código de barras del producto: ")
             contProd = int(input("Introduzca la cantidad del producto: "))
             precProd = float(input("Introduzca el precio del producto: "))
-            introduceFila(PK, nomProd, codBarr, contProd, precProd)
+            introduceFila( nomProd, codBarr, contProd, precProd)
         except:
             print("\nAsegúrese de haber introducido datos válidos")
 
@@ -134,7 +133,3 @@ while(True):
         sys.exit(0)
     else:
         print("Introduzca una opción correcta\n")
-
-"""for x in mycursor:
-    print(x)"""
-db.commit()
